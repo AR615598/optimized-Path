@@ -11,4 +11,4 @@ Creating a GUI was the primary reason in creating this program, until now I have
 ## Skills used
 - Swing
 - AWT
-- Bredth First Search 
+- Searching Algorithms 
