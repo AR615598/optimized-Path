@@ -1,18 +1,2 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Possible improvments 
+Creating a GUI was the primary reason in creating this program, until now I have never made a GUI. But because of this I had encountered a couple of issues such as the allowing for the communication between components, the solution that is currently being used is getters connected from the root panel. This should be changed since it violates encapsulation and is overall dangerous. Instead the majority of functionality should be moved to the display class so that the two component getters are not needed. Other classes can also benefit from removing getters and setters.
